@@ -1,6 +1,6 @@
 const timerId = setTimeout(
   () => console.log('You will not see this one!'),
-  1
+  10
 );
 
 // setImmediate
