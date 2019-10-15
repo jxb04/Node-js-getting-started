@@ -10,7 +10,12 @@ const testerObj = {
   func2: () => {
     console.log('func2', this);
   },
+
+  func3: () => {
+    console.log('func3', this);
+  },
 };
 
 testerObj.func1();
 testerObj.func2();
+testerObj.func3();
