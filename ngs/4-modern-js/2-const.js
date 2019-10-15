@@ -8,3 +8,6 @@ const person = {
   firstName: 'John',
   lastName: 'Doe',
 };
+
+// Object.freeze()
+// Immutible.js
